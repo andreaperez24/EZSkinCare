@@ -1,0 +1,168 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #666;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* sections */
+.colored-section {
+  background-color: #fcbad3;
+  color: #666;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* title */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light", sans-serif;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone {
+  width: 40%;
+  transform: rotate(25deg);
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+}
+
+.row {
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.text1 {
+  color: #8f8f8f;
+  padding: 5%;
+}
+
+/* testimonial */
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* CTA */
+.action-title {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #666;
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-top: 30px;
+}
+
+.action {
+  padding: 7% 15%;
+}
+
+/* footer */
+.footer-content {
+  text-align: center;
+  margin: 50px 0 50px;
+  padding-top: 5%;
+}
+
+.text2 {
+  color: #8f8f8f;
+  padding: 1%;
+}
+
+.footer-icon {
+  letter-spacing: 10px;
+}
+
+/* media queries */
+@media (max-width: 1020px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
